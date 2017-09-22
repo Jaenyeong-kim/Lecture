@@ -1,0 +1,12 @@
+CREATE DATABASE python;
+
+USE python;
+
+CREATE TABLE fortest(
+              `test` VARCHAR(50) NULL DEFAULT NULL,
+              `test2` VARCHAR(50) NULL DEFAULT NULL,
+              `test3` VARCHAR(50) NULL DEFAULT NULL,
+              `test4` VARCHAR(50) NULL DEFAULT NULL,
+              PRIMARY KEY (`test`)
+           )
+

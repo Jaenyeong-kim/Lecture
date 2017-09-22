@@ -1,0 +1,11 @@
+CREATE DATABASE python;
+
+USE python;
+
+CREATE TABLE fortest(
+              `no` INT(20) NOT NULL AUTO_INCREMENT,
+              `test` VARCHAR(50) NULL DEFAULT NULL,
+              `test2` VARCHAR(50) NULL DEFAULT NULL,
+              PRIMARY KEY (`no`)
+           )
+
